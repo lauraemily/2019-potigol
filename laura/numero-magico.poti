@@ -1,0 +1,12 @@
+escreva "jogo adivinhe o múmero magico"
+escreva "este jogo você tenta adivinha o número magico"
+escreva "qual o seu nome?"
+nome = leia_texto
+escreva "bem vindo {nome}" 
+minimo = 1
+maximo = 100
+magico = aleatório [minimo,maximo]
+escreva "qual o seu palpite entre {minimo} e {maximo}?"
+numero = leia_inteiro
+escreva "{nome}, seu número foi {numero}"
+escreva "O meu número foi {magico}"
